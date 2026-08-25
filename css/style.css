@@ -1,0 +1,161 @@
+:root {
+  --color-bg: #0f0f12;
+  --color-surface: #1a1a1f;
+  --color-text: #f2f2f2;
+  --color-muted: #a0a0a8;
+  --color-accent: #5b8cff;
+  --max-width: 1100px;
+  --spacing: 1.5rem;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* Header / nav */
+#header {
+  position: sticky;
+  top: 0;
+  background: var(--color-surface);
+  z-index: 10;
+}
+
+#navbar {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem var(--spacing);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+#nav-toggle {
+  display: none;
+  font-size: 1.5rem;
+  color: var(--color-text);
+}
+
+@media (max-width: 640px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--color-surface);
+    padding: 1rem var(--spacing);
+    gap: 1rem;
+  }
+
+  #nav-toggle {
+    display: block;
+  }
+}
+
+/* Sections */
+section {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 4rem var(--spacing);
+}
+
+#home {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#home h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+#home p {
+  color: var(--color-muted);
+  margin-top: 0.5rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Projects */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing);
+}
+
+.project-card {
+  background: var(--color-surface);
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.project-card h3 {
+  font-size: 1.25rem;
+}
+
+.project-card p {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-tags span {
+  background: rgba(91, 140, 255, 0.15);
+  color: var(--color-accent);
+  font-size: 0.75rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.project-links a {
+  color: var(--color-accent);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem var(--spacing);
+  color: var(--color-muted);
+  font-size: 0.85rem;
+}

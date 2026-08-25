@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriel Villanueva | Portfolio</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header id="header">
+    <nav id="navbar">
+      <a href="#home" class="logo">Your Name</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="nav-toggle" aria-label="Toggle navigation menu">&#9776;</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1>Hi, I'm Gabriel.</h1>
+      <p>I build things for the web.</p>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>A short bio goes here.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="project-list" class="project-grid">
+        <!-- Project cards are rendered here by js/projects.js -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Gabriel Villanueva</p>
+  </footer>
+
+  <script src="js/projects-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
