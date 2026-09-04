@@ -11,7 +11,7 @@ const projects = [
   {
     title: "SecureNotes ",
     description: "An end-to-end hybrid encryption application that allows users to securely send files and messages to other valid users, as well as securely store files locally.",
-    demoUrl: "",
+    demoUrl: "https://youtu.be/jB9FQv1o1uw",
     repoUrl: "https://github.com/gabeamv/CSharpTrainingArc",
     tags: ["C#", "ASP.NET Core Web API", "Entity Framework Core", "PostgreSQL", "WPF", "Hybrid RSA/AES-GCM", "CNG API"],
   },
