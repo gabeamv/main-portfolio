@@ -25,7 +25,7 @@ const projects = [
   {
     title: "mOral - The Dental Hygiene Application",
     description: "A mobile Android application that promotes dental hygiene for users by gamifying dental hygiene activities through fun game-like features which leverage a points and rewards system.",
-    demoUrl: "",
+    demoUrl: "https://www.youtube.com/watch?v=LVrGt3CDGeo",
     repoUrl: "https://github.com/ArthurO-CSULB/Dentistry-App",
     tags: ["Kotlin", "Jetpack Compose", "Firebase"],
   },
