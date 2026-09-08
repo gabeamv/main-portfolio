@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Overloaded - The Fitness API",
     description: "A RESTful workout-tracking backend, providing structured endpoints for managing exercises, workouts, and workout sets.",
-    demoUrl: "",
+    demoUrl: "https://youtu.be/9aF_KuCjVdY",
     repoUrl: "https://github.com/gabeamv/overloaded-api",
     tags: ["Go", "PostgreSQL", "sqlc", "goose", "JWT Auth"],
   },
