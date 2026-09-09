@@ -18,7 +18,7 @@ const projects = [
   {
     title: "ChatApp",
     description: "A real-time client-server chat application that supports asynchronous client-server communication, message broadcasting, connection management, and responsive UI updates.",
-    demoUrl: "",
+    demoUrl: "https://youtu.be/-1So_HxsA0s",
     repoUrl: "https://github.com/gabeamv/ChatApp",
     tags: ["C#", "WPF", "WebSockets", "Asynchronous Programming"],
   },
