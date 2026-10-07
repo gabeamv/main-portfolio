@@ -2,6 +2,13 @@
 // to add/remove projects from the page.
 const projects = [
   {
+    title: "Job Application Manager",
+    description: "An end-to-end job application manager to track job application data and stats so that users can know how to improve their job applications and get a job.",
+    demoUrl: "",
+    repoUrl: "https://github.com/gabeamv/job-application-manager",
+    tags: ["Python", "FastAPI", "PostgreSQL", "Javascript", "HTML", "CSS"],
+  },
+  {
     title: "Overloaded - The Fitness API",
     description: "A RESTful workout-tracking backend, providing structured endpoints for managing exercises, workouts, and workout sets.",
     demoUrl: "https://youtu.be/9aF_KuCjVdY",
